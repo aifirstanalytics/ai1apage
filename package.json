@@ -1,0 +1,32 @@
+{
+  "name": "ai1st-analytics-site",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Marketing site for AI1st Analytics (AI-First Analytics, Inc.)",
+  "engines": {
+    "node": ">=20.9.0"
+  },
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "preview": "npx serve out",
+    "deploy": "next build && gh-pages -d out --dotfiles -m \"Deploy site\""
+  },
+  "dependencies": {
+    "next": "^16.4.5",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1"
+  },
+  "devDependencies": {
+    "@fontsource/inter": "^5.3.0",
+    "@tailwindcss/postcss": "^4.3.5",
+    "@types/node": "^26.6.6",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "gh-pages": "^6.3.0",
+    "opentype.js": "^2.0.0",
+    "postcss": "^8.5.32",
+    "tailwindcss": "^4.3.5",
+    "typescript": "^7.0.2"
+  }
+}

@@ -1,0 +1,46 @@
+@import "tailwindcss";
+
+@theme inline {
+  --color-ink: #0b1220;
+  --color-accent: #0057ff;
+  --color-accent-strong: #0046cc;
+  --color-accent-soft: #e8f0ff;
+  --color-surface: #f7f8fa;
+  --color-line: #e3e6ec;
+  --color-muted: #5b667c;
+  --font-sans: var(--font-inter), ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: #ffffff;
+  color: var(--color-ink);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+/* Anchored sections should not hide under the sticky header */
+section[id] {
+  scroll-margin-top: 4.5rem;
+}
+
+::selection {
+  background: var(--color-accent);
+  color: #fff;
+}
+
+:focus-visible {
+  outline: 2px solid var(--color-accent);
+  outline-offset: 3px;
+  border-radius: 4px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+}
