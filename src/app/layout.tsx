@@ -23,7 +23,7 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     url: site.url,
-    siteName: `${site.name} (${site.legalName})`,
+    siteName: site.name,
     title,
     description: site.description,
   },

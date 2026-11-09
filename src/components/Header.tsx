@@ -11,9 +11,9 @@ export function Header() {
   return (
     <header className="sticky top-0 z-30 border-b border-line bg-white/90 backdrop-blur">
       <Container className="flex h-16 items-center justify-between gap-6">
-        <a href="#top" aria-label="AI1st Analytics, home" className="shrink-0">
+        <a href="#top" aria-label="AI-First Analytics, home" className="shrink-0">
           {/* eslint-disable-next-line @next/next/no-img-element */}
-          <img src="/logo/ai1st-wordmark.svg" alt="AI1st Analytics" width={230} height={119} className="h-9 w-auto" />
+          <img src="/logo/ai1st-wordmark.svg" alt="AI-First Analytics" width={230} height={119} className="h-9 w-auto" />
         </a>
         <nav aria-label="Main" className="hidden items-center gap-8 md:flex">
           {links.map((l) => (

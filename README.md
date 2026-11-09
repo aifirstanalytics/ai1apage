@@ -1,6 +1,6 @@
-# AI1st Analytics website
+# AI-First Analytics website
 
-Static marketing site for AI1st Analytics (AI-First Analytics, Inc.), built with Next.js (static export), React 19, and Tailwind CSS. Hosted on GitHub Pages at https://aifirstanalytics.com.
+Static marketing site for AI-First Analytics, Inc. (logo wordmark: AI1st Analytics), built with Next.js (static export), React 19, and Tailwind CSS. Hosted on GitHub Pages at https://aifirstanalytics.com.
 
 ## Everyday use
 

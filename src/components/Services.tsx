@@ -60,8 +60,8 @@ export function Services() {
           AI tools built around your data and your customers.
         </h2>
         <p className="mt-4 max-w-2xl text-lg text-muted">
-          Every project starts from a concrete business question. We focus on tools that work on real, messy data, not on
-          demos that fall apart in production.
+          Every project starts from a concrete business question. Our tools work on real, messy data and are built to
+          keep AI costs under control.
         </p>
         <div className="mt-12 grid grid-cols-1 gap-6 md:grid-cols-3">
           {services.map((s) => (

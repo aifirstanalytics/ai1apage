@@ -18,9 +18,9 @@ shot() { # shot <url> <w> <h> <out> [extra flags...]
 # 1. Open Graph / social preview image
 shot "file://$PWD/scripts/og-image.html" 1200 630 src/app/opengraph-image.png
 
-# 2. Apple touch icon (blue background, white "1"; iOS applies its own rounding)
+# 2. Apple touch icon (ink background, same dots as the favicon; iOS applies its own rounding)
 cat > "$TMP/apple.html" <<EOF
-<body style="margin:0;background:#0057FF"><img src="file://$PWD/src/app/icon.svg" width="180" height="180"></body>
+<body style="margin:0;background:#0B1220"><img src="file://$PWD/src/app/icon.svg" width="180" height="180"></body>
 EOF
 shot "file://$TMP/apple.html" 180 180 src/app/apple-icon.png
 

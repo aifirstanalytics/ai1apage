@@ -9,10 +9,8 @@ export function Footer() {
         <div className="flex flex-col gap-8 md:flex-row md:items-start md:justify-between">
           <div className="max-w-md">
             {/* eslint-disable-next-line @next/next/no-img-element */}
-            <img src="/logo/ai1st-wordmark-dark.svg" alt="AI1st Analytics" width={230} height={119} className="h-12 w-auto" />
-            <p className="mt-5 text-sm leading-relaxed">
-              {site.name} is a trade name of {site.legalName}, a Delaware corporation.
-            </p>
+            <img src="/logo/ai1st-wordmark-dark.svg" alt="AI-First Analytics" width={230} height={119} className="h-12 w-auto" />
+            <p className="mt-5 text-sm leading-relaxed">{site.legalName}, a Delaware corporation.</p>
             <p className="mt-2 text-sm leading-relaxed">
               {site.name} is an independent company and is not affiliated with Cornell University.
             </p>

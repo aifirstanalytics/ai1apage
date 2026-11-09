@@ -14,9 +14,9 @@ export default function PrivacyPage() {
     <>
       <header className="border-b border-line bg-white">
         <Container className="flex h-16 items-center justify-between">
-          <a href="/" aria-label="AI1st Analytics, home">
+          <a href="/" aria-label="AI-First Analytics, home">
             {/* eslint-disable-next-line @next/next/no-img-element */}
-            <img src="/logo/ai1st-wordmark.svg" alt="AI1st Analytics" width={230} height={119} className="h-9 w-auto" />
+            <img src="/logo/ai1st-wordmark.svg" alt="AI-First Analytics" width={230} height={119} className="h-9 w-auto" />
           </a>
           <a href="/" className="text-sm font-medium text-muted hover:text-ink">
             &larr; Back to home
@@ -30,8 +30,8 @@ export default function PrivacyPage() {
 
           <div className="mt-8 space-y-6 text-[15px] leading-relaxed text-ink/90">
             <p>
-              This website is operated by {site.legalName} (&ldquo;{site.name}&rdquo;). We keep it deliberately simple and
-              collect as little data as possible.
+              This website is operated by {site.legalName}. We keep it deliberately simple and collect as little data as
+              possible.
             </p>
 
             <section>

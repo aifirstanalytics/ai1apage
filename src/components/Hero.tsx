@@ -20,7 +20,7 @@ export function Hero() {
         <div className="min-w-0">
           <p className="mb-5 inline-flex items-center gap-2 rounded-full border border-line bg-white px-3 py-1 text-xs font-medium text-muted">
             <span className="h-1.5 w-1.5 rounded-full bg-accent" aria-hidden="true" />
-            Custom software and consulting for data-driven companies
+            Custom AI software and consulting for businesses with valuable data
           </p>
           <h1 className="text-4xl font-bold leading-[1.08] tracking-tight sm:text-5xl lg:text-6xl">
             Custom AI analytics software, built around <span className="text-accent">your data.</span>
